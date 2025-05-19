@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servidor con express y Socket.io</title>
+    <title>Servidor con Express y Socket.io</title>
 </head>
 <body>
     <h1>Aplicación en tiempo real</h1>
+    <p id="text"></p>
+    <button id="emit-to-server">Presiona aqui</button><br> <br>
+    <button id="emit-to-last">Saludo desde la ultima conexion</button>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/index.js"></script>
 </body>
